@@ -165,7 +165,7 @@ class MazeView2D:
                         dirs += dir
                 self.__cover_walls(x, y, dirs)
 
-    def __cover_walls(self, x, y, dirs, colour=(0, 0, 255, 15)):
+    def __cover_walls(self, y, x, dirs, colour=(0, 0, 255, 15)):
 
         if self.__enable_render is False:
             return
